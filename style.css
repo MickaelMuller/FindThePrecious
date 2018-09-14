@@ -1,0 +1,79 @@
+h2, .card-title{
+    text-align: center;
+}
+.legolas{
+    opacity: 0.55;
+    transition-duration: 0.5s;
+}
+.legolas:hover {
+    opacity: 1;
+ }   
+.titrelegolas{
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    padding: 10px;
+    opacity: 1;
+    transition-duration: 0.5s;    
+}
+.legolas:hover .titrelegolas{
+    opacity: 0;
+    transition-duration: 0.s;
+}
+.jedi{
+    opacity: 0.55;
+    transition-duration: 0.5s;
+}
+.jedi:hover {
+    opacity: 1;
+ }   
+.titrejedi{
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    padding: 10px;
+    opacity: 1;
+    transition-duration: 0.5s;    
+}
+.jedi:hover .titrejedi{
+    opacity: 0;
+    transition-duration: 0.s;
+}
+
+.gollum{
+    opacity: 0.55;
+    transition-duration: 0.5s;
+}
+
+.gollum:hover {
+    opacity: 1;
+ }   
+.titregollum{
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    padding: 10px;
+    opacity: 1;
+    transition-duration: 0.5s;    
+}
+.gollum:hover .titregollum{
+    opacity: 0;
+    transition-duration: 0.s;
+}
+
+a{
+    color: black
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+footer, li, a {
+    color: white
+}
+
+.like{
+    width: 12%;
+}
