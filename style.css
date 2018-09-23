@@ -1,9 +1,56 @@
-h2, .card-title{
+@font-face{
+    font-family: "Aniron";
+    src: url("pete-klassen_aniron/anirm___.ttf")
+}
+@font-face{
+    font-family: "Party Business";
+    src: url("nancy-lorenz_party-business/partybusiness.ttf")
+}
+
+@font-face{
+    font-family: "Tengwar";
+    src: url("tengwar_annatar/tngan.ttf")
+}
+
+.pile{
+    color : rgb(103,102,96);
+    font-family: "Aniron";
+    font-size : 1.4em
+}
+.pile2{
+    color: #fd661e;
+    font-family: "Aniron";
+    font-size : 1.4em;
+    text-decoration: underline;
+}
+.elfique{
+    font-family: "Tengwar", sans-serif;
+    color: #fd661e;
+}
+
+body{
+    background-image: url("images/bg_light.png")
+}
+
+h2 {
+    font-family: "Aniron";
+    font-size: 1.7em;
+    margin : 2em 0em 2em 1em;
+}
+
+/* cards :hover */
+.legolas, .jedi, .gollum{
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    background-color: black;
+}
+
+.card-title{
     text-align: center;
 }
 .legolas{
-    opacity: 0.55;
+    opacity: 0.8;
     transition-duration: 0.5s;
+   
 }
 .legolas:hover {
     opacity: 1;
@@ -13,16 +60,31 @@ h2, .card-title{
     border-radius: 20px;
     color: black;
     padding: 10px;
-    opacity: 1;
-    transition-duration: 0.5s;    
+    opacity: 0.8;
+    transition-duration: 0.5s;  
+    font-size: 3.3em  
 }
 .legolas:hover .titrelegolas{
     opacity: 0;
-    transition-duration: 0.s;
-}
-.jedi{
-    opacity: 0.55;
     transition-duration: 0.5s;
+}
+.gand{
+    font-size: 5em;
+    position: absolute;
+    top: 38%;
+    left: 25%;
+    transition-duration: 0.5s;
+}
+.legolas:hover .gand{
+    position: absolute;
+    top: 60%;
+    transition-duration: 0.5s;
+}
+
+.jedi{
+    opacity: 0.8;
+    transition-duration: 0.5s;
+    
 }
 .jedi:hover {
     opacity: 1;
@@ -32,40 +94,62 @@ h2, .card-title{
     border-radius: 20px;
     color: black;
     padding: 10px;
-    opacity: 1;
+    opacity: 0.8;
     transition-duration: 0.5s;    
+    font-size: 3.3em
 }
 .jedi:hover .titrejedi{
     opacity: 0;
     transition-duration: 0.s;
 }
-
+.ara{
+    font-size: 5em;
+    position: absolute;
+    top: 38%;
+    left: 25%;
+    transition-duration: 0.5s;
+}
+.jedi:hover .ara{
+    position: absolute;
+    top: 60%;
+    transition-duration: 0.5s;
+}
 .gollum{
-    opacity: 0.55;
+    opacity: 0.8;
     transition-duration: 0.5s;
 }
 
 .gollum:hover {
     opacity: 1;
  }   
-.titregollum{
-    background-color: white;
-    border-radius: 20px;
-    color: black;
-    padding: 10px;
-    opacity: 1;
-    transition-duration: 0.5s;    
+ .dead{
+    font-size: 4em;
+    position: absolute;
+    top: 7%;
+    left: 32%;
+    font-size: 5em;
+    transition-duration: 0.5s;
 }
-.gollum:hover .titregollum{
+.gim{
+    position: absolute;
+    top: 38%;
+    left: 34%;
+    font-size: 5em;
+      
+    transition-duration: 0.5s;
+}
+.gollum:hover .dead{
     opacity: 0;
-    transition-duration: 0.s;
+    transition-duration: 0.5s;
 }
 
-a{
-    color: black
+.gollum:hover .gim{
+    position: absolute;
+    top: 62%;
+    transition-duration: 0.5s;
 }
 
-
+/* inte final */
 ul{
     list-style-type: none;
 }
@@ -78,3 +162,32 @@ footer, li, a {
     width: 12%;
 }
 
+.navbar{
+    background-color:#fd661e;
+    font-family: "Aniron";  
+}
+
+.carousel-caption{
+    font-family: "Party Business";
+    text-align: left;   
+    top: 30%;    
+}
+
+h5{
+    font-size: 5em;
+
+}
+
+.orange{
+    color: #fd661e;
+}
+
+h3, .card-body{
+    font-family: "Party Business", sans-serif;
+    color: white;
+    font-size: 2.5em;
+}
+
+h4 {
+    font-size: 3em;
+}
